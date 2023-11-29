@@ -16,28 +16,28 @@ def button_add():
     f_num=e.get()
     global first
     global vivek
-    piyusha="addition"
+    vivek="addition"
     e.delete(0,END)
     first=float(f_num)
 def button_sub():
     f_num=e.get()
     global first
     global vivek
-    piyusha="subtraction"
+    vivek="subtraction"
     e.delete(0,END)
     first=float(f_num)
 def button_mull():   
     f_num=e.get()
     global first
     global vivek
-    piyusha="multiplication"
+    vivek="multiplication"
     e.delete(0,END)
     first=float(f_num)
 def button_div():
     f_num=e.get()
     global first
     global vivek
-    piyusha="division"
+    vivek="division"
     e.delete(0,END)
     first=float(f_num)
 def button_clear():
